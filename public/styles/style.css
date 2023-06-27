@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(94, 94, 90);
+}
+
+#book {
+    display: flex;
+    background-color: rgb(206, 206, 183);
+    flex-direction: column;
+    align-content: center;
+    border: 2px solid black;;
+}
+
+#form {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
